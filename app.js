@@ -29,3 +29,12 @@ function iniciar() {
     let resultadoTela = document.querySelector('h3')
     resultadoTela.innerHTML = "Resultado: " + resultado
 }
+
+function d100() {
+    let valores = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+    let resul = Math.floor(Math.random() * (10 - 0 + 1) + 0);
+
+    let resultadoTela = document.querySelector('h3');
+    resultadoTela.innerHTML = "Resultado: " + valores[resul];
+    
+}
