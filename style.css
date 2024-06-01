@@ -1,0 +1,29 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+    position: relative;
+    left: 2%;
+}
+#dados {
+    display: flex;
+    flex-direction: column;
+}
+.botao {
+    width: 49px;
+    height: 27px;
+}
+
+
+h4 {
+    position: relative;
+    left: 31%;
+    top: -10px;
+}
